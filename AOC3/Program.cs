@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Microsoft.VisualBasic;
 
 namespace AOC3
 {
@@ -10,7 +9,7 @@ namespace AOC3
     {
         static void Main(string[] args)
         {
-            var allLines = File.ReadAllLines("C:\\Users\\Michiel\\source\\repos\\AdventOfCode\\AOC3\\AOC3\\input");
+            var allLines = File.ReadAllLines("input");
 
             SolvePartOne(allLines);
             SolvePartTwo(allLines);
